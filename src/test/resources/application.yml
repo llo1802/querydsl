@@ -1,0 +1,29 @@
+spring:
+  profiles:
+    active: test
+  datasource:
+    url: jdbc:h2:tcp://localhost/~/querydsl
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+  properties:
+    hibernate:
+      #      dialect : org.hibernate.dialect.MySQLDialect
+#      show_sql: true -> 로그로 결과 봐야함
+      format_sql: true
+#      use_sql_comments: true
+
+#  data:
+#    web:
+#      pageable:
+#        default-page-size: 10
+#        max-page-size: 2000
+#        one-indexed-parameters: true -> 페이지 1번부터, 그러나 내부 객체 페이지 번호 0
+
+logging.level:
+  org.hibernate.SQL: debug
+  org.hibernate.type: trace
