@@ -12,7 +12,7 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-@SpringBootTest(classes = MemberTest.class)
+@SpringBootTest
 @Transactional
 class MemberTest {
 

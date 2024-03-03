@@ -16,7 +16,7 @@ import java.util.List;
 import static org.assertj.core.api.Assertions.*;
 import static study.querydsl.entity.QMember.member;
 
-@SpringBootTest(classes = MemberJpaRepositoryTest.class)
+@SpringBootTest
 @Transactional
 class MemberJpaRepositoryTest {
 
