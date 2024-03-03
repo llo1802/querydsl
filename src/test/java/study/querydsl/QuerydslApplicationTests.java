@@ -12,7 +12,7 @@ import study.querydsl.entity.QHello;
 
 import static org.assertj.core.api.Assertions.*;
 
-@SpringBootTest(classes = QuerydslApplicationTests.class)
+//@SpringBootTest(classes = QuerydslApplicationTests.class)
 @Transactional
 @Commit
 class QuerydslApplicationTests {

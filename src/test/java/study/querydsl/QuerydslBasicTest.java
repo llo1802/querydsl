@@ -35,7 +35,7 @@ import static org.assertj.core.api.Assertions.*;
 import static study.querydsl.entity.QMember.*;
 import static study.querydsl.entity.QTeam.*;
 
-@SpringBootTest(classes = QuerydslApplicationTests.class)
+//@SpringBootTest
 @Transactional
 public class QuerydslBasicTest {
 
