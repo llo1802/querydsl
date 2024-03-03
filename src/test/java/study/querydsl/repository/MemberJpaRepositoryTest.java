@@ -4,6 +4,7 @@ import jakarta.persistence.EntityManager;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.transaction.annotation.Transactional;
 import study.querydsl.dto.MemberSearchCondition;
 import study.querydsl.dto.MemberTeamDto;
@@ -15,7 +16,8 @@ import java.util.List;
 import static org.assertj.core.api.Assertions.*;
 import static study.querydsl.entity.QMember.member;
 
-//@SpringBootTest
+@PropertySource("classpath:/path/to/properties/file")
+@SpringBootTest
 @Transactional
 class MemberJpaRepositoryTest {
 
