@@ -12,7 +12,6 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-@PropertySource("classpath:/path/to/properties/file")
 @SpringBootTest
 @Transactional
 class MemberTest {

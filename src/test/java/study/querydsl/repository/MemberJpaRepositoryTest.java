@@ -16,7 +16,6 @@ import java.util.List;
 import static org.assertj.core.api.Assertions.*;
 import static study.querydsl.entity.QMember.member;
 
-@PropertySource("classpath:/path/to/properties/file")
 @SpringBootTest
 @Transactional
 class MemberJpaRepositoryTest {

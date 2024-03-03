@@ -36,7 +36,6 @@ import static org.assertj.core.api.Assertions.*;
 import static study.querydsl.entity.QMember.*;
 import static study.querydsl.entity.QTeam.*;
 
-@PropertySource("classpath:/path/to/properties/file")
 @SpringBootTest
 @Transactional
 public class QuerydslBasicTest {

@@ -13,7 +13,6 @@ import study.querydsl.entity.QHello;
 
 import static org.assertj.core.api.Assertions.*;
 
-@PropertySource("classpath:/path/to/properties/file")
 @SpringBootTest
 @Transactional
 @Commit
